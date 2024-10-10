@@ -59,7 +59,7 @@ function showContactButtons(){
 };
 
 //Fade in techs
-const techs = document.querySelectorAll("#techs > img");
+const techs = document.querySelectorAll("#techs > i");
 function showTechs(){
     let i = 0;
     var techFadein = setInterval(() => {
